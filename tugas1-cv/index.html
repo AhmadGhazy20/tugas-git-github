@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Ahmad Ghazy Hibatullah</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f4f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 850px;
+            max-width: 90%;
+            margin: 40px auto;
+            background-color: white;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        /* Header */
+        .header {
+            background-color: #1f2937;
+            color: white;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .profile-photo {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid white;
+        }
+
+        .header-text h1 {
+            font-size: 36px;
+            margin-bottom: 8px;
+        }
+
+        .header-text p {
+            font-size: 18px;
+            color: #d1d5db;
+        }
+
+        /* Content */
+        .content {
+            padding: 35px 45px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            color: #1f2937;
+            font-size: 22px;
+            margin-bottom: 12px;
+            padding-bottom: 7px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+
+        section p {
+            color: #555;
+        }
+
+        /* List */
+        ul,
+        ol {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Skills */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li {
+            background-color: #e5e7eb;
+            color: #374151;
+            padding: 7px 14px;
+            border-radius: 20px;
+            margin: 0;
+        }
+
+        /* Contact */
+        .contact a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            background-color: #f9fafb;
+            padding: 20px;
+            color: #777;
+            font-size: 14px;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+                margin: 20px auto;
+            }
+
+            .content {
+                padding: 25px;
+            }
+
+            .header {
+                padding: 30px 20px;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .header-text h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+
+            <img 
+                src="foto.jpeg" 
+                class="profile-photo"
+            >
+
+            <div class="header-text">
+                <h1>Ahmad Ghazy Hibatullah</h1>
+                <p>Mahasiswa Teknik Informatika</p>
+            </div>
+
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+
+            <!-- Profil -->
+            <section>
+                <h2>Profil</h2>
+
+                <p>
+                    Saya adalah mahasiswa Teknik Informatika yang memiliki
+                    minat dalam bidang pengembangan website dan teknologi
+                    informasi. Saya senang mempelajari hal-hal baru dan
+                    mengembangkan kemampuan dalam pemrograman.
+                </p>
+            </section>
+
+
+            <!-- Data Diri -->
+            <section>
+                <h2>Data Diri</h2>
+
+                <ul>
+                    <li>
+                        <strong>Nama:</strong> Ahmad Ghazy Hibatullah
+                    </li>
+
+                    <li>
+                        <strong>Status:</strong> Mahasiswa
+                    </li>
+
+                    <li>
+                        <strong>Program Studi:</strong> Teknik Informatika
+                    </li>
+
+                    <li>
+                        <strong>Universitas:</strong> STT Terpadu Nurul Fikri
+                    </li>
+
+                    <li>
+                        <strong>Email:</strong> ghazy@example.com
+                    </li>
+
+                    <li>
+                        <strong>No. Telepon:</strong> 08xxxxxxxxxx
+                    </li>
+                </ul>
+            </section>
+
+
+            <!-- Pendidikan -->
+            <section>
+                <h2>Pendidikan</h2>
+
+                <ul>
+                    <li>
+                        <strong>STT Terpadu Nurul Fikri</strong>
+                        <br>
+                        Teknik Informatika
+                    </li>
+                </ul>
+            </section>
+
+
+            <!-- Keahlian -->
+            <section>
+                <h2>Keahlian</h2>
+
+                <ul class="skills">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>PHP</li>
+                    <li>Laravel</li>
+                    <li>Java</li>
+                    <li>Database</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </section>
+
+
+            <!-- Pengalaman -->
+            <section>
+                <h2>Pengalaman</h2>
+
+                <ul>
+                    <li>
+                        <strong>Project</strong>
+                        <br>
+                        Software Engineering 
+                    </li>
+                </ul>
+            </section>
+
+
+            <!-- Proyek -->
+            <section>
+                <h2>Proyek</h2>
+
+                <ol>
+                    <li>Website Sistem Informasi</li>
+                    <li>Website Toko Online</li>
+                    <li>Aplikasi Manajemen Data</li>
+                </ol>
+            </section>
+
+
+        
+
+        </div>
+
+
+        <!-- Footer -->
+        <div class="footer">
+            &copy; 2026 ahmad Ghazy Hibatullah. All rights reserved.
+        </div>
+
+    </div>
+
+</body>
+</html>
+```
